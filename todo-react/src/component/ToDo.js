@@ -13,7 +13,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    // Setting up state
+    // Setting up state1
     this.state = {
       userInput: "",
       list: [],
