@@ -1,10 +1,9 @@
 import "./App.css";
-import Image from "./Render-and-commit/initial-render/Image";
+import Clock from "./Render-and-commit/3-react-commits-changes-to-the-dom/Clock";
 
-export default function App() {
-  return (
-    <div className="Page">
-      <Image />
-    </div>
-  );
+function App() {
+  
+  return <Clock />;
+
 }
+export default App;
